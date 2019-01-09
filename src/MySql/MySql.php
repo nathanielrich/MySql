@@ -159,12 +159,12 @@ class MySql {
     }
 
     /**
-     * @param $delimiter
      * @param array $array
+     * @param $delimiter
      * @param null $defaultFirst
      * @return Implode
      */
-    public static function implode($delimiter, array $array = [], $defaultFirst = null)
+    public static function implode(array $array = [], $delimiter, $defaultFirst = null)
     {
         return new Implode($delimiter, array_merge( ($defaultFirst !== null ? [$defaultFirst] : []), $array));
     }
