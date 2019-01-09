@@ -1,0 +1,21 @@
+{
+    "name": "nathanielrich/my-sql",
+    "description": "a simple php class to handle mysql connections",
+    "keywords": ["mysql", "library", "nathanielrich"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nathanielrich",
+            "email": "nathaniel.rich@me.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NRich\\MySql\\": "src/MySql"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
